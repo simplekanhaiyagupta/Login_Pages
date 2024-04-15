@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="logins.css">
+    <!-- <link rel="stylesheet" href="/responsive.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="left-content">
+            <div class="title">
+                <h1>dribble</h1>
+                <h2>Discover the world's top <br>
+                    Designers & Creatives.
+                </h2>
+            </div>
+            <div class="image">
+                <img src="001.jpg" alt="">
+            </div>
+            <div class="para">
+                <p>Art by <u>Peter Tarka</u></p>
+            </div>
+        </div>
+
+        <div class="right-content">
+
+            <div class="content">
+                <div class="para1">
+                    <p>Already a member? <a href="">Sign In</a></p>
+                </div>
+                <div class="form">
+                    <div class="heading">
+                        <h3>Sign up to Dribble</h3>
+                        <p id="para2">. Username has already been taken</p>
+                    </div>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <!-- <form action=""> -->
+
+                        <div class="input-field">
+
+                            <div class="name">
+                                <div>
+                                    <input type="hidden" name="access_key" value="21ca55e6-b888-4176-81a2-fc6279e17a7c">
+                                    <label for="">Name</label><br>
+                                    <input type="text" name="Name" placeholder="Name" required class="input">
+                                </div>
+
+                                <div>
+                                    <label>Username</label><br>
+                                    <input type="text" name="Username" placeholder="Username" class="input">
+                                </div>
+                            </div>
+                            <div class="email">
+                                <label>Email</label><br>
+                                <input type="email" name="Email" placeholder="john@39gmail.com" required  class="input">
+                            </div>
+
+                            <div class="">
+                                <label>Password</label><br>
+                                <input type="password" name="" placeholder="6+ Characters" required="" id="pass"
+                                  minlength="6"   class="input" 
+                                  
+                                   
+                                  >
+                            </div>
+
+                             <div>
+                                <input type="checkbox" id="termsCheckbox">
+                                <span>Creating an account means you're 
+                                    okay
+                                    with our <a href="">Terms of <br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Service,Privacy Policy ,</a> and our default <a
+                                        href="">Notification <br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Settings</a></span>
+                            </div>
+
+                            <div class="captcha">
+                                <div class="h-captcha" data-captcha="true"></div>
+                                <div class="button"><a href="./profile.html"><button type="submit" id="submit">Create
+                                            Account</button></a></div>
+                                <p>This site is protected by reCAPTCHA and the Google <br>
+                                    <a href="">Privacy Policy</a> and <a href="">Terms of Service</a> apply.
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        
+    </script>
+
+</body>
+
+</html>
